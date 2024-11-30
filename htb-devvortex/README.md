@@ -1,7 +1,3 @@
----
-title: "Hack The Box - Devvortex"
-date: 2014-01-14
----
 ## Description
 ## Information gathering
 I started with a full TCP scan:
