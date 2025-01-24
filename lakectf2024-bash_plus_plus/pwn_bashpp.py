@@ -9,7 +9,7 @@ parser.add_argument('-p', '--port', type=int, help="Port of remote server", defa
 
 args = parser.parse_args()
 
-file = "/home/pierre/Documents/ctf/lakectf/bash_plus_plus/main"
+file = "./main"
 
 if args.r:
     conn = pwn.remote(args.ip, args.port)
